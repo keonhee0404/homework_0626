@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>김건희</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+
+        }
+
+        .card {
+            width: 300px;
+            background-color: white;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            
+        }
+
+        .name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .job-title{
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .contact{
+            font-size: 14px;
+            color: #333;
+        }
+        .profile-img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+    </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const button = document.querySelector('button');
+                button.addEventListener('click', function() {
+                    console.log('button clicked!');
+                });
+            });
+        </script>
+</head>
+
+<body>
+    <div class="card">
+
+        <img class="profile-img" src="https://via.placeholder.com/100" alt="프로필 사진" class="profile-img">
+        <div class="name">김건희
+        </div>
+        <div class="job-title">
+            웹개발자
+        </div>
+
+        <div>
+            이메일:gunhee041108@gmail.com <br>
+            전화번호:010-5595-2405 <br>
+            주소: 서울시 상명대학교
+        </div>
+    </div>
+    <div>
+        <button>김현정은 카리나입니다</button>
+    </div>
+</body>
+
+</html>
